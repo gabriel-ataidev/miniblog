@@ -1,4 +1,4 @@
-
+import "./index.scss";
 function About() {
     return (
       <div>About</div>

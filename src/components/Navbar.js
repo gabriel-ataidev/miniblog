@@ -8,6 +8,8 @@ function Navbar() {
             <ul className="pages_list">
                 <li><NavLink to="/" end className={({isActive}) => (isActive ? "active" : "")}>Home</NavLink></li>
                 <li><NavLink to="/about" className={({isActive}) => (isActive ? "active" : "")}>Sobre</NavLink></li>
+                <li><NavLink to="/login" className={({isActive}) => (isActive ? "active" : "")}>Login</NavLink></li>
+                <li><NavLink to="/register" className={({isActive}) => (isActive ? "active" : "")}>Cadastrar</NavLink></li>
             </ul>
         </nav>
     )
